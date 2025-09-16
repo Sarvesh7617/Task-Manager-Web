@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import axios from 'axios';
 import { io } from 'socket.io-client';
 import { toast } from 'react-toastify';
+import {BASE_URL} from "../config/config";
 
 
 function Tasks() {
