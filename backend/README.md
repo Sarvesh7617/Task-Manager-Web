@@ -44,9 +44,16 @@ npm install
 Create a .env file in the root and add:
 ```bash
 PORT=5000
-CORS_ORIGIN=http://localhost:your frontend port number
+CORS_ORIGIN=http://localhost:"your frontend port number"
 MONGOOSE_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net
 JWT_SECRET=your_jwt_secret
 ```
 ```markdown
 ⚠️ **Note:** > 🔑 Replace `<username>` and `<password>` with your MongoDB Atlas credentials.
+```
+
+4. **Running the Server**
+
+```bash
+npm run dev
+```
