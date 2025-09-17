@@ -57,3 +57,36 @@ JWT_SECRET=your_jwt_secret
 ```bash
 npm run dev
 ```
+---
+
+
+```markdown
+## 📁 Project Structure
+.src
+├── controllers/
+│ ├── auth.controllers.js
+│ ├── task.controllers.js
+│ └── user.controllers.js
+|
+├── db/
+│ └── index.js
+|
+├── middleware/
+│ └── auth.middleware.js
+|
+├── model/
+│ ├── task.model.js
+│ └── user.model.js
+|
+├── routes/
+│ ├── auth.routes.js
+│ ├── tasks.routes.js
+│ └── users.routes.js
+|
+├── utils/
+│ ├── ApiError.js
+│ └── asyncHandler.js
+|
+├── app.js
+├── constant.js
+└──index.js
