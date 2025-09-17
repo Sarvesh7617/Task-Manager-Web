@@ -49,4 +49,4 @@ MONGOOSE_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net
 JWT_SECRET=your_jwt_secret
 ```
 ```markdown
-> ⚠️ **Note:** > 🔑 Replace `<username>` and `<password>` with your MongoDB Atlas credentials.
+⚠️ **Note:** > 🔑 Replace `<username>` and `<password>` with your MongoDB Atlas credentials.
