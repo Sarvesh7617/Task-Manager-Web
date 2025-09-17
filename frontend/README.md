@@ -74,6 +74,8 @@ npm run dev
 
 ---
 ## 📁 Frontend Folder Structure
+
+```markdown
 frontend/
 ├── public/                  # Public static files (index.html, favicon, etc.)
 ├── src/
@@ -91,7 +93,7 @@ frontend/
 ├── vite.config.js           # Vite build configuration
 ├──.env                      # enviroment variable
 └── package.json             # Project metadata and dependencies
-
+```
 
 ## 6. 🧩 Components Breakdown
 
@@ -135,7 +137,7 @@ frontend/
 
 ### 7. Routing (App.jsx)
 
-```bash
+```markdown
 <Router>
   <Routes>
     <Route path="/" element={<LandingPage />} />
