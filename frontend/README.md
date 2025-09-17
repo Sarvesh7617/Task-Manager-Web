@@ -1,12 +1,27 @@
-# React + Vite
+# Task Manager Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the frontend of the **Task Manager App**, built with **React.js** and **Tailwind CSS**. It allows users to register, login, create, assign, and manage tasks in real-time using **Socket.IO**.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🏠 Home Page
+<img width="1902" height="968" alt="Screenshot 2025-09-17 021324" src="https://github.com/user-attachments/assets/a1d0d904-21ef-4263-bbaa-396f65d8eb7b" />
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Dashboard
+<img width="1917" height="960" alt="Screenshot 2025-09-17 021424" src="https://github.com/user-attachments/assets/db8094b8-f4d0-49c9-8a59-a6bdb1f90d5f" />
+
+
+### ✅ Task UI
+<img width="1916" height="965" alt="Screenshot 2025-09-17 021440" src="https://github.com/user-attachments/assets/bc64a30b-a726-44dd-aa60-fd4b672e9c57" />
+
+
+## 🚀 Features
+
+- 🔐 User authentication (Register & Login)
+- 👤 JWT-based protected routes
+- 📋 Create, update, delete tasks
+- 🧑 Assign tasks to users
+- 🟢 Real-time updates with Socket.IO
+- 🔍 Filter tasks by status, priority, assignee, and keywords
+- ⚙️ Responsive UI using Tailwind CSS
+- 🔔 Toast notifications (via react-toastify)
