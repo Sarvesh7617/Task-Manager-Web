@@ -48,5 +48,5 @@ CORS_ORIGIN=http://localhost:your frontend port number
 MONGOOSE_URL=mongodb+srv://<username>:<password>@cluster0.mongodb.net
 JWT_SECRET=your_jwt_secret
 ```
-**NOTE**-
-#### Replace <username> and <password> with your MongoDB Atlas credentials.
+```markdown
+> ⚠️ **Note:** > 🔑 Replace `<username>` and `<password>` with your MongoDB Atlas credentials.
