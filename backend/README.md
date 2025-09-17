@@ -60,6 +60,7 @@ npm run dev
 ---
 
 ## 📁 Project Structure
+```bash
 .src
 ├── controllers/
 │ ├── auth.controllers.js
@@ -88,3 +89,39 @@ npm run dev
 ├── app.js
 ├── constant.js
 └──index.js
+```
+
+## 🔐 Authentication Routes
+
+All authentication routes are prefixed with `/api/auth`.
+
+| Method | Endpoint       | Description                          |
+|--------|----------------|--------------------------------------|
+| POST   | `/register`    | Register a new user                  |
+| POST   | `/login`       | Login and receive a JWT token        |
+| GET    | `/protected`   | Access protected route (JWT required) |
+
+
+
+
+
+## 📋 Task Routes
+
+All task routes are **protected** and prefixed with `/api/tasks`.
+
+| Method | Endpoint     | Description               |
+|--------|--------------|---------------------------|
+| POST   | `/`          | Create a new task         |
+| GET    | `/`          | Get all tasks (with filters) |
+| PUT    | `/:id`       | Update a task by ID       |
+| DELETE | `/:id`       | Delete a task by ID       |
+
+
+
+### 🔎 Supported Query Parameters (for GET `/api/tasks`)
+
+- `status` → Filter by task status (`Todo`, `In Progress`, `Completed`)
+- `priority` → Filter by priority (`Low`, `Medium`, `High`)
+- `assignee` → Filter by assigned user ID
+- `keyword` → Search by title or description (case-insensitive)
+
