@@ -148,9 +148,6 @@ Clients should connect to the server via **Socket.IO** to receive live updates.
 | `taskUpdated` | Updated task object  |
 | `taskDeleted` | Deleted task ID      |
 
-## 📡 Real-Time Events (Socket.IO)
-
-Clients should connect to the server via **Socket.IO** to receive live updates.
 
 ## 📡 Real-Time Events (Socket.IO)
 
