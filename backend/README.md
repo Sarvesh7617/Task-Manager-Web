@@ -59,8 +59,6 @@ npm run dev
 ```
 ---
 
-
-```markdown
 ## 📁 Project Structure
 .src
 ├── controllers/
