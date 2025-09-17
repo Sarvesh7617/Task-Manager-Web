@@ -125,3 +125,41 @@ All task routes are **protected** and prefixed with `/api/tasks`.
 - `assignee` → Filter by assigned user ID
 - `keyword` → Search by title or description (case-insensitive)
 
+
+## 👥 User Routes
+
+All user routes are **protected** and prefixed with `/api/users`.
+
+| Method | Endpoint | Description                  |
+|--------|----------|------------------------------|
+| GET    | `/`      | Get all users (name + email) |
+
+
+
+## 📡 Real-Time Events (Socket.IO)
+
+Clients should connect to the server via **Socket.IO** to receive live updates.
+
+### 🔸 Events Emitted from Server
+
+| Event Name   | Payload              |
+|--------------|----------------------|
+| `taskCreated` | New task object      |
+| `taskUpdated` | Updated task object  |
+| `taskDeleted` | Deleted task ID      |
+
+## 📡 Real-Time Events (Socket.IO)
+
+Clients should connect to the server via **Socket.IO** to receive live updates.
+
+## 📡 Real-Time Events (Socket.IO)
+
+Clients should connect to the server via **Socket.IO** to receive live updates.
+
+### 🔸 Events Emitted from Server
+
+| Event Name   | Payload              |
+|--------------|----------------------|
+| `taskCreated` | New task object      |
+| `taskUpdated` | Updated task object  |
+| `taskDeleted` | Deleted task ID      |
